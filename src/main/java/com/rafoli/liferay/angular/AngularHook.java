@@ -37,7 +37,7 @@ import com.liferay.portal.kernel.url.URLContainer;
 @Component(
 	immediate = true,
 	property = {
-		"context.id=BladeCustomJspBag", "context.name=Test Custom JSP Bag",
+		"context.id=AngularHook", "context.name=Angular Hook",
 		"service.ranking:Integer=100"
 	}
 )
