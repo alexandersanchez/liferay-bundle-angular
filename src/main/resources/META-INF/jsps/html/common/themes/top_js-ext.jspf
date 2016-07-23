@@ -5,7 +5,7 @@
   window.MainApp = {};
 </script>
 
-<script type="text/javascript" src="/o/angular-liferay-bundle/js/liferay-angular-bundle.js"></script>
+<script type="text/javascript" src="/o/liferay-bundle-angular/js/liferay-bundle-angular.js"></script>
 
 <script type="text/javascript">
   angular.element(document).ready(function() {

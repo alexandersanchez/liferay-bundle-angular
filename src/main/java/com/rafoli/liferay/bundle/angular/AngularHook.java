@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.rafoli.liferay.angular;
+package com.rafoli.liferay.bundle.angular;
 
 import java.net.URL;
 import java.util.ArrayList;
@@ -37,7 +37,7 @@ import com.liferay.portal.kernel.url.URLContainer;
 @Component(
 	immediate = true,
 	property = {
-		"context.id=AngularHook", "context.name=Angular Hook",
+		"context.id=AngularHook", "context.name=Liferay Angular Hook",
 		"service.ranking:Integer=100"
 	}
 )

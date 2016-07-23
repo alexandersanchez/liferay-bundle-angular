@@ -1,11 +1,11 @@
 {
-  "name": "liferay-angular-bundle",
+  "name": "liferay-bundle-angular",
   "description": "Liferay 7 or DXP, AngularJS, Angular",
   "version": "0.1.0",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/rafoli/liferay-angular-bundle.git"
+    "url": "git://github.com/rafoli/liferay-bundle-angular.git"
   },
   "dependencies": {
     "angular": "^1.5.8"

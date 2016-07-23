@@ -29,7 +29,7 @@ version = '0.1.0'
 bundle {
     instructions << [
         '-includeresource:': 'META-INF/resources=src/main/resources/META-INF/resources',
-        'Web-ContextPath'  : '/liferay-angular-bundle',
+        'Web-ContextPath'  : '/liferay-bundle-angular',
     ]
 }
 
@@ -66,10 +66,10 @@ bintray {
 	publications = ['mavenJava']
 	pkg {
 		repo = 'maven'
-		name = 'liferay-angular-bundle'
+		name = 'liferay-bundle-angular'
 		desc = 'Liferay 7 or DXP, AngularJS, Angular'
 		licenses = ['MIT']
-		vcsUrl = 'http://github.com/rafoli/liferay-angular-bundle.git'
+		vcsUrl = 'http://github.com/rafoli/liferay-bundle-angular.git'
 		labels = ['liferay', 'angular', 'angularjs', 'dxp']
 		publicDownloadNumbers = true
 	    version {

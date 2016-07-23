@@ -29,6 +29,6 @@
       //
 
     }]).run(['$log', function ($log) {
-      $log.debug("[Liferay/Angular] Initializing " + appName + "...");
+      $log.debug("[Liferay Bundle Angular] Initializing " + appName + "...");
     }]);
 }(window));
