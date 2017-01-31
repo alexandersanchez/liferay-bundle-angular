@@ -106,7 +106,5 @@ public class AngularHook implements CustomJspBag {
 
 	private Bundle bundle;
 	
-	
-	private String text;
 
 }
