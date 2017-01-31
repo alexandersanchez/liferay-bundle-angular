@@ -33,6 +33,7 @@ import com.liferay.portal.kernel.url.URLContainer;
 
 /**
  * @author rafoli
+ * Fork by Alexander 
  */
 @Component(
 	immediate = true,
@@ -104,5 +105,8 @@ public class AngularHook implements CustomJspBag {
 	};
 
 	private Bundle bundle;
+	
+	
+	private String text;
 
 }
